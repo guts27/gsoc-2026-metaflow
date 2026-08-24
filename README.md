@@ -520,7 +520,7 @@ Environment: PostgreSQL 11, `runs_v3` with 1,103,003 rows (1M of them under
 `flow_id='test_1m'`), 18 distinct tags.
 
 The same data can be created with `seed_runs.py` and `seed_data.py` in this
-Gist. The first creates runs at each scale, the second fills in the rest of
+repository. The first creates runs at each scale, the second fills in the rest of
 the hierarchy.
 
 **Full scan vs single-run lookup** — the 880x gap the tag cache design rests
